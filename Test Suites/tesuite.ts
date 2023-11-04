@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>tesuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>ffd31a54-1574-4c01-92d4-499c3e8b9450</testSuiteGuid>
+   <testCaseLink>
+      <guid>4fe89f8a-d098-47db-bc48-c62ea2e0612e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/userTestCase</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bd1812de-3642-437c-a14d-a7c773c59e52</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/exceldata</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>bd1812de-3642-437c-a14d-a7c773c59e52</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FirstName</value>
+         <variableId>2c9119e0-7af3-4383-9c02-9b45ca560f8b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bd1812de-3642-437c-a14d-a7c773c59e52</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LastName</value>
+         <variableId>6853ddde-7e72-4354-8308-bfb3c447dc94</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
